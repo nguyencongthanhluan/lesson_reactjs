@@ -1,0 +1,9 @@
+.ex1Content {
+  background-color: pink;
+  color: white;
+  height: 400px;
+  width: 80%;
+}
+.ex1Content p {
+  font-size: 50px;
+}

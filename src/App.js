@@ -1,24 +1,51 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import DemoPure from "./DemoPure/DemoPure";
+import AjaxApi from "./AjaxApi/AjaxApi";
+// import BaiTapQuanLySinhVien from "./BaiTapQuanLySinhVien/BaiTapQuanLySinhVien";
+// import ReactLifeCycle from "./ReactLifeCycle/ReactLifeCycle";
+// import Home from "./UserManagement/Home";
+// import HomeShopping from "./Shopping/Home";
+// import MovieExercise from "./movie-exercise";
+// import Parent from "./Demo-props/parent";
+// import MovieExercise from "./movie-exercise";
+// import CarExercise from "./Car-exercise";
+// import Home from "./exercise-2/Home";
+// import Databinding from "./Databinding";
+// import Home from "./exercise-1/Home";
+// import Header from "./header";
+// import Footer from "./footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Demo reactjs</h1> */}
+
+      {/* <Home /> */}
+
+      {/* <Header />
+      <Footer /> */}
+
+      {/* <Databinding /> */}
+
+      {/* <CarExercise /> */}
+
+      {/* <MovieExercise /> */}
+
+      {/* <Parent /> */}
+
+      {/* <MovieExercise /> */}
+
+      {/* <HomeShopping /> */}
+
+      {/* <Home /> */}
+
+      {/* <ReactLifeCycle /> */}
+
+      {/* <BaiTapQuanLySinhVien /> */}
+
+      {/* <DemoPure /> */}
+
+      <AjaxApi />
     </div>
   );
 }
